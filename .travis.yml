@@ -1,7 +1,7 @@
 language: csharp
 solution: Oware.sln
 mono: none
-dotnet: 2.1.502
+dotnet: 5.0
 script:
   - dotnet test
 os: linux
