@@ -4,7 +4,19 @@ using System;
 using System.Collections.Generic;
 
 namespace Oware {
-    public class House : IEquatable<House> {
+    public interface IHouse
+    {
+            void AddSeedInPot(Seed seed);
+            int GetCount();
+            IReadOnlyList<Seed> GetSeeds();
+            List<Seed> GetSeedsAndEmptyHouse();
+            int GetXPos();
+            int GetYPos();
+            void ResetHouse();
+            
+    }
+
+    public class House : IEquatable<House>, IHouse {
         private List<Seed> seedsInHouse;
         public int xPos, yPos;
         
