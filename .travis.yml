@@ -4,5 +4,4 @@ mono: none
 dotnet: 5.0
 script:
   - dotnet test
-os: linux
-dist: focal
+os: osx
