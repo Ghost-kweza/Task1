@@ -20,7 +20,7 @@ namespace Oware {
         private List<Seed> seedsInHouse;
         public int xPos, yPos;
         
-        public House(int x, int y) {
+        /*public House(int x, int y) {
             seedsInHouse = new List<Seed>();
             InitializeHouse();
         }
@@ -42,7 +42,7 @@ namespace Oware {
         public void ResetHouse() {
             seedsInHouse.Clear();
             InitializeHouse();
-        }
+        } */
 
         public List<Seed> GetSeedsAndEmptyHouse() {
             List<Seed> temp = new List<Seed>(seedsInHouse);
