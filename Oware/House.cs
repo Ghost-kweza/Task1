@@ -42,7 +42,7 @@ namespace Oware {
         public void ResetHouse() {
             seedsInHouse.Clear();
             InitializeHouse();
-        } */
+        } 
 
         public List<Seed> GetSeedsAndEmptyHouse() {
             List<Seed> temp = new List<Seed>(seedsInHouse);
@@ -80,6 +80,6 @@ namespace Oware {
         public override int GetHashCode()
         {
             return xPos ^ yPos; // XOR of xpos and ypos
-        }
+        } */
     }
 }
